@@ -1,4 +1,3 @@
-const dd = (val) => console.log(val)
 const body = document.querySelector('.background')
 const boxes = document.querySelectorAll('.box')
 
