@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.container {
+    background: rgb(125,134,188);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.text-field {
+    background: rgb(255,255,255);
+    height: 500px;
+    width: 1150px;
+    padding: 25px;
+}
+
+.controls {
+    background: rgb(50,50,50);
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 15px;
+    align-self: center;
+    border-radius: 0;
+    border: solid orange 4px;
+    background: gray;
+    color: whitesmoke;
+}
